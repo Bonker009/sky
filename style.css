@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: #1E1C2A;
+    padding:1rem 9rem;
+    color: #fff;
+}
+/* nav */
+header#nav-bar{
+    position: sticky;
+    top: 0rem;
+    background-color: #1E1C2A;
+    
+    margin-bottom: 3rem;
+
+    
+}
+#home h1{
+    align-items: start;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+
+}
+nav h1{
+    color:#ff702a;
+    font-size: 3rem;
+}
+nav ul li{
+    list-style: none;
+    color: #fff; 
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 3rem;
+    
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+/* top-container */
+div #home h1{
+    font-size: 5rem;
+    color:#ff702a;
+    margin-bottom: 1rem;
+    margin-top: -9rem;
+    margin-left: 0;
+}
+div #home h2{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+#top-container a{
+    color: #fff;
+    border: solid 1px;
+    padding: 1rem;
+    background-color: #ff702a;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+div.top-feature{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+  
+    justify-content: center;
+    align-items: center;
+}
+div.top-feature img{
+    width: 85%;
+}
+/* lower-feature */
+p{
+    color:   #ff702a;
+    font-weight: 900;
+   margin-bottom: 0;
+}
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    
+}
+.aaa{
+    color: #fff;
+    margin-bottom: 4rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+.lower-feature{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 10rem;
+    gap: 4rem;
+    align-items: center;
+}
+.about-info{
+    max-width: 36rem;
+}
+.lower-feature img{
+    width: 85%;
+}
+div#menu{
+text-align: center;
+margin-bottom: 5rem;
+
+}
+.food1,.food2,.food3{
+    background-color: #fff;
+    display: grid; 
+    padding: 1rem;
+    border-radius: 10px;
+    width: 85%;
+
+    
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+/* service section */
+#service p ,#service h1{
+    text-align: center;
+
+}
+
+#service h1{
+    font-size: 2.7rem;
+}
+.deliver-option{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4rem;
+    padding: 5% 2%;
+    align-items: center;
+    
+}
+.deliver-option img{
+    width: 5rem; 
+}
+div.option{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+
+}
+/* .deliver-option h4{
+    text-align: center;
+} */
+
